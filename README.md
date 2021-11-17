@@ -24,7 +24,8 @@ Push local changes to repo:
     # git push origin caitlin  # replace caitlin w your branch name
     git push origin main
 ##### Parsimony ancestral character state reconstruction and joining up genes co-gained/lost into events
-For the reconstruction run
+You need to install ete3, biopython, pandas and networkx e.g. using conda.
+For the reconstruction  run
 
     python parsimony.py <tree> <gene_presence_absence.Rtab> <outdir> --is_transposed --tree_is_named 
 
