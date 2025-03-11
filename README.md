@@ -1,28 +1,6 @@
 # panaroo_team
 
-##### Comments
 
-Work in progress--email or slack me if you have any trouble adding to our new repo.
-I added separate folders for code and data for basic organisation (feel free to change/expand). 
-(?) Aaron: would it be ok for me to host a copy of your data here, or should I leave it in the MRC cloud?
-
-##### Useful commands
-
-Set-up:
-
-    git clone git@github.com:pathgenevocam/panaroo_team.git
-    cd panaroo_team
-    
-    # git checkout caitlin  # replace caitlin w your branch name
-    
-Push local changes to repo: 
-
-    git add -A
-    git commit -m "did something useful"
-    git status
-    
-    # git push origin caitlin  # replace caitlin w your branch name
-    git push origin main
 ##### Parsimony ancestral character state reconstruction and joining up genes co-gained/lost into events
 You need to install ete3, biopython, pandas and networkx e.g. using conda.
 For the reconstruction  run
